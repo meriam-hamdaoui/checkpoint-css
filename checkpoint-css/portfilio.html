@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my styled portfilio</title>
+    <link rel="icon" href="res/head-icon.jpg" type="img/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+ 
+    <!-- the header will contain my navigation bar and the home page -->
+    <header class="header-container" id="homepage">
+        <!-- the navigation bar will help you to visit any section on te site by just one click -->
+        <nav class="navbar">
+            <a href="#homepage" id="nav-link-left">Home</a>
+            <a href="#aboutme" id="nav-link-left">About_Me</a>
+            <a href="#skills" id="nav-link-left">Skills</a>
+            <a href="#certifactes" id="nav-link-left">Certificates</a>
+            <a href="#leisures" id="nav-link-right">Leisures</a>
+            <a href="#contact" id="nav-link-right">Contact</a>
+        </nav>
+
+        <!-- this div will containe my profil pic, my name and a descriptif audio -->
+        <div class="home">            
+            <img src="res/Maya.jpg" alt="my profil photo">            
+            <h1>HAMDAOUI <br> <span>Mariem</span></h1>
+        </div>
+
+        <!-- the bottom of the header -->
+        <section class="header-bottom">
+            <!-- the left part of the bottom -->
+            <div class="div_audio">
+                <h3>Full Stack JS Developer</h3>
+                <audio src="res/Voice 001.m4a" type="audio/mpeg" autoplay controls>            
+                </audio>              
+            </div> 
+            <!-- the right part of the bottom -->
+            <div class="social-icons">                
+                <!-- linkedin profil -->
+                <a href="http://www.linkedin.com/in/mariem-hamdaoui-6186b273">
+                    <img src="https://icon-library.com/images/linkedin-icon-for-resume/linkedin-icon-for-resume-0.jpg" 
+                        alt="linkedin_icon">
+                </a>
+                <!-- github profil -->
+                <a href="https://github.com/meriam-hamdaoui">
+                    <img src="https://icon-library.com/images/github-icon-for-resume/github-icon-for-resume-8.jpg" 
+                        alt="gmail_icon">
+                </a>
+                <!-- stackoverflow profil -->
+                <a href="https://stackoverflow.com/users/17482391/maya">
+                    <img src="https://images.getpng.net/uploads/preview/social-media-icons-32-1151639130891dykbzr9kt6.webp"
+                        alt="stackoverflow_icon">
+                </a>
+                <!-- instagram profil -->
+                <a href="https://www.instagram.com/maya_hamdaoui/">
+                    <img src="data:image/jpeg;base64,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"
+                    alt="instagram_icon">
+                </a>                
+            </div>                   
+        </section>        
+    </header>
+
+    <!-- the main section where you can know me better -->
+    <main class="main-container">
+        <!-- about me section -->
+        <section id="aboutme"> 
+            <h2>About Me</h2>
+            <p>I'm a network engineer, I love to organize and designate so I decided to learn 
+                    the web developpement, I founded amusing and I enjoy it <br>                   
+                    <br>
+                This is my first web site and I'm gonna list my skills and my certificates on it<br>
+                <br>
+                You can consult and download my resume from <a href="https://drive.google.com/file/d/1Pi3e7egOXiD9hlErDWEqARpfl3sOoaw_/view?usp=sharing" id="resume-link">this link</a> 
+            </p>
+        </section>
+        <!-- my skills section -->
+        <section id="skills">            
+            <h2>My Skills</h2>
+            <br>
+            <table> 
+                <tr>
+                    <th> <h3>Hard Skills</h3></th>
+                    <th><h3>Soft-Skills</h3></th>
+                </tr>
+                <tr>
+                    <td>                     
+                        <dl>
+                            <dt>Front-End</dt>
+                            <dd>HTML5, CSS3, JavaScript</dd>                            
+                        
+                            <dt>Frameworks</dt>
+                            <dd>React, Node, Angular</dd>
+                        
+                            <dt>DataBases</dt>
+                                <dd>MongoDE, SQL, NoSQL</dd>
+                                
+                            <dt>Back-End</dt>
+                                <dd>.Net, Spring-Boot</dd>
+
+                        </dl>                         
+                    </td> 
+                    <td>                       
+                        <ul>
+                            <li>Confidence and self-esteem,</li>
+                            <li>Communication,</li>
+                            <li>Conflict Management,</li>
+                            <li>Making Decision, </li>
+                            <li>Leadership,</li>
+                            <li>Teamork,</li>
+                            <li>Critical Mind,</li>
+                            <li>Creativity and Innovation,</li>
+                            <li>Stress Management,</li>
+                            <li>Adaptation to change,</li>
+                            <li>Negotiation Technique,</li>
+                            <li>Problemms Solving,</li>
+                            
+                            <li>Emotional Intellinence,</li>
+                        </ul> 
+                                                             
+                    </td>                                  
+                </tr>                                    
+            </table>
+        </section>
+    
+        <!-- certificates section -->
+        <section id="certifactes">            
+            <h2>Certificates</h2>
+            
+            <div style="display: grid; grid-template-columns: 50% 50%">                
+                <img src="res/dot_net_certif.jpg" alt=".net certif">
+                <img src="res/java_certif.jpg" alt="jee certif">
+                <img src="res/softskills.jpg" alt="softskills certif">
+                <img id="udemy" src="res/data_algo_certif.jpg" alt="data & algo certif">
+            </div>          
+        </section>
+    
+        <!-- leisure section -->
+        <section id="leisures">            
+            <h2>Leisures</h2>
+            <ul style="display: grid; grid-template-columns: 33% 33% 33%;">
+                <div class="reading-div">
+                    <div><img src="res/reading.jpg" alt="reading"></div>
+                    <li>Reading</li>
+                </div>
+                <div class="fitness-div">
+                    <div><img src="https://png.pngtree.com/element_our/20190603/ourmid/pngtree-sport-fitness-dumbbell-illustration-image_1429370.jpg" alt="fitness"></div>
+                    <li>Fitness</li>
+                </div>
+                <div class="trek-div">
+                    <div><img src="https://i.pinimg.com/originals/aa/c2/4b/aac24b48fa06c210bab7546630caa199.jpg" alt="trek"></div>
+                    <li>Trek</li>
+                </div>
+                
+                
+            </ul>
+        </section>    
+    </main>
+    <!-- the contact me section/footer -->
+    <footer>
+        <section id="contact">
+            <h2>Contact Me</h2>
+        <!-- first div is for my personal contact -->
+            <div class="personal-contact">
+                <!-- my phone number -->
+                <div id="contacts">                   
+                    <img src="res/mobile.png" alt="mobile_icon">
+                    <a href="tel:+21655803315"> (+216) 55 803 315</a>
+                </div>
+                <!-- my home address -->
+                <div id="address">                    
+                    <img src="res/address.png" alt="address_icon">                    
+                    <p>11 Rue El Ikhouen Hafouz Wed Gueryena El Aguba Tunis</p>
+                </div>  
+                <!-- my address email   -->
+                <div id="contacts">                    
+                    <img src="res/gmail.png" alt="gmail_icon">
+                    <a href="https://mail.google.com/mail">hamdaoui.meriam85@gmail.com</a>
+                </div>
+            </div>
+            <!-- Or you just send me a message in here --> 
+            <div class="form-contact"> 
+                <a href="form.html">
+                    <input type="submit" value="Send Me Message?">
+                </a>             
+            </div>    
+            <!-- copyright -->
+            <div class="copyright">
+                <p>©2022 HAMDAOUI Mariem</p>
+            </div>
+        </section>
+    </footer>   
+   
+    
+</body>
+</html>

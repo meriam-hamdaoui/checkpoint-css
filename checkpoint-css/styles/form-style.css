@@ -1,0 +1,96 @@
+/*centring all the web page sections*/
+*{
+    max-width: 99%;    
+    margin: 1%;
+}
+/* set a background image for the full page */
+html { 
+    background: url("https://cdn.ucberkeleybootcamp.com/wp-content/uploads/sites/106/2020/03/Web-Developer-Bootcamp-San-Francisco.jpeg")    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*****Header*****/
+header{
+    /* border: 2px solid red; */
+    margin-right: 800px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+}
+h1{
+    color: #7882A4;
+    text-align: center;
+    font-style: oblique;
+    font-size: 45px;
+}
+
+/*****Main section****/
+main{    
+    margin-left: 800px;
+    margin-top: 0%;
+    display: block;
+}
+h4{
+    color: #1A1A40;
+    text-align: center;
+    font-style: oblique;
+    font-size: 45px;
+    border: double;
+}
+/* give the labels some styles */
+span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 50px;    
+}
+/* the email div */
+.email span{
+    padding-left: 30px;
+}
+.email input{
+    border-style: double;
+    width: 450px;
+    height: 40px;
+}
+/* the message div */
+.message label{
+    margin: 25%;
+}
+#messages{
+    border-style: double;
+    width: 450px;
+    height: 100px;
+}
+/* the button */
+.button input{
+    margin-left: 350px;
+    margin-bottom: 10px;  
+    padding: 10px;
+    border-radius: 50%;
+    background-color: whitesmoke; 
+    font-size: 20px; 
+}
+.button input:link{
+    color: #655D8A;
+    
+}
+/* visited link */
+.button input:visited {  
+    background-color: aqua;
+     
+}
+/* mouse over link */
+.button input:hover { 
+    background-color: #BB6464;   
+  }
+/* the footer */
+h2{
+    margin-left: 900px;
+    color: #12122f;
+}
+
+
+  

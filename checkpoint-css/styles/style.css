@@ -1,0 +1,313 @@
+/*centring all the web page sections*/
+*{
+  max-width: 99%;  
+  margin: auto;
+}
+
+
+/***********************styling the header section***********************/
+.header-container{
+    background-color: #98B4AA;
+    background-image: url("https://thumbs.gfycat.com/ExemplaryFairFeline-size_restricted.gif");
+    background-position: center;
+    background-repeat:no-repeat;
+    border-radius: 2.5%;
+    padding: 30px;     
+    position: relative;
+    /* border: double; */
+    height: 500px;/*to take the full screen*/
+    margin-bottom: 50px;
+}
+/*move the nav bar to the right and fixed*/
+.navbar{
+    display: inline; /*align the item in the nav tag*/
+    position: fixed; /* Sticky/fixed navbar */
+    margin: 10px 5px 15px 550px;
+    word-spacing: 1em; /*space between words*/       
+    /* border: double; */
+    overflow: hidden;
+    /*background-color: yellow; */
+    padding: 20px 0px;
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */  
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;        
+}
+/*the nav items*/
+.navbar a{  
+  text-decoration: none;/*remove the underline*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  /* text-shadow: 6px 6px 0px rgba(166, 155, 228, 0.863); */
+}
+/* unvisited link */
+.navbar a:link {
+  /* color: rgb(18, 18, 87); */
+  color: #655D8A;
+}
+/* visited link */
+.navbar a:visited {
+  /* color: #39386b; */
+  color: #D885A3;
+}
+/* mouse over link */
+a:hover {
+  text-shadow: 0px 0px 6px rgba(218, 128, 10, 0.931);
+}
+/*styling the profil pic */
+.home img{
+  /* border: 2px solid green; */
+  margin: 20px 1050px 15px 2.5px;
+  width: 200px;
+  border-radius: 50%;
+}
+.home h1{  
+  margin: 150x 20px 10px 10px;  
+}
+
+/*the bottom of the header*/
+.header-bottom{
+  display: inline-block;
+  /* border: red double;   */
+}
+.div_audio{
+  /* border: 2px solid red; */
+  margin-left: 1050px;
+  
+}
+.div_audio h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+/*social media div*/
+.social-icons{
+  /* border: double;   */
+  margin-right: 1050px;
+  margin-left: 20px;
+  text-align: center;
+}
+.social-icons img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+
+/***********************styling the main section***********************/
+.main-container{
+  padding: 30px; 
+  position: relative;
+  /* border: double; */
+  border-radius: 1%;
+  background-color:#F1E0AC;
+}
+/* styling all the titles in main section*/
+h2{
+  text-align: center;
+  font-style: oblique;
+  /* color: #139487; */
+  color: #655D8A;
+  font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+/*margin all sections*/
+#aboutme, #skills, #certifactes, #leisures{  
+  margin-bottom: 25px;  
+}
+#aboutme{
+  border-radius: 10%;
+  /* border: 5px solid #D29D2B; */
+}
+#skills{
+  margin-top: 50px;
+  padding-bottom: 75px;
+}
+
+/*****about me section******/
+#aboutme p{
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: Helvetica;
+  font-style: bold;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;  
+  z-index: 10;
+}
+/*unvisited resume*/
+#resume-link:link{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 25px;
+}
+/* visited resume */
+#resume-link:visited {  
+  color: #750930;
+}
+/* mouse over resume */
+#resume-link:hover {
+  text-shadow: 0px 0px 6px rgba(117, 106, 8, 0.931);
+}
+
+/*****skills section*****/*
+/*table border*/
+table,tr,th,td{
+  border: 2px solid rgb(5, 5, 47);
+  width: 100%;
+  table-layout: fixed;   
+  margin-left: auto; 
+  margin-right: auto; 
+}
+/*the column names*/
+th h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  color: #750930;
+  font-size: 30px;
+  text-align: center;
+  margin: 2%;
+}
+/*table content*/
+td{
+  font-family: Helvetica;
+  font-style: bold;
+  font-size: 20px;  
+  margin: 2%;  
+}
+/*hard skills row*/
+dl{
+  margin-left: 20px;
+}
+dt{
+  font-style: italic;
+  font-size: 30px;  
+  margin-left: 30px;
+  margin-top: 10px;
+}
+dd{
+  margin-left: 100px;
+  
+}
+/*the soft skills row*/
+table ul{
+  /*li side by side*/
+  list-style-type: none;
+  list-style: none;
+}
+table ul li{
+  margin-bottom: 15px;
+  margin-left: 10px;
+  float: left;  
+  font-style: italic;
+  font-size: 26px;
+}
+
+/*****certificates section*****/
+#certifactes img{
+  width: 400px;  
+  margin-bottom: 20px;
+  padding: 50px;
+  /* background-color: green; */
+  transition: transform .2s; /* Animation */
+  /* width: 200px; */
+  /* height: 200px; */
+  /* margin: 0 auto; */
+} 
+#certifactes img:hover{
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#udemy{
+  margin-top: 20%;
+}
+
+/*****leisures section*****/
+#leisures ul{
+  list-style-type: none;
+  list-style: none;
+}
+#leisures ul li{
+  margin-bottom: 15px;
+  margin-left: 10px;
+  float: left;  
+  font-style: italic;
+  font-size: 26px;
+}
+#leisures img{
+  width: 200px;  
+  height: 200px;
+  /* margin-bottom: 20px; */
+  padding: 0px;
+}
+#leisures ul li{
+  text-align: center;
+  margin-left: 50px;
+}
+
+
+
+
+/***********************styling the footer section***********************/
+.personal-contact{
+  margin-left: 20px;
+}
+#contact{  
+  background-color: #98B4AA;
+  border-radius: 5%;  
+}
+/* #contacts{
+  /* border: 2px solid #750930; */
+/*} */
+#contacts img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#address{
+  /* border: 2px solid #750930; */
+  display: flex;
+  /* align-items: flex-start; */
+ 
+} 
+#address img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 0px;
+}
+#address p, #contacts a{  
+  margin-right: 70px;
+  text-align: left;
+}
+#contact div{
+  margin-bottom: 10px;
+  margin-right: 400px;
+}
+.form-contact input{
+  margin-left: 1100px;
+  padding: 10px;
+  border-radius: 25%;  
+  /* background-color:#F1E0AC; */
+  /* background-color: rgb(170, 170, 218); */
+  background-color: whitesmoke;
+}
+
+.form-contact input:link{
+  color: #655D8A;
+  
+}
+/* visited link */
+.form-contact input:visited {  
+  background-color: aqua;
+   
+}
+/* mouse over link */
+.form-contact input:hover { 
+  background-color: #BB6464;   
+}
+
+.copyright{
+  text-align: center;
+  margin-left: 400px;
+}
